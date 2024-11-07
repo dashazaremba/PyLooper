@@ -1,0 +1,13 @@
+ALL abundances NOT listed below differ from solar by  -1.24 dex
+Title                                                                           
+                                                      vt= 1.67 M/H=-1.24        
+
+Abundance Results for Species Ba II        (input abundance =   0.89)
+wavelength        EP     logGF        EW     logRW     abund     del avg
+   5853.69      0.60    -1.010     126.0     -4.67      1.23        0.11
+   6141.73      0.70    -0.070     172.0     -4.55      1.15        0.03
+   6496.91      0.60    -0.380     156.0     -4.62      0.98       -0.14
+average abundance =  1.12     std. deviation =  0.13     #lines =   3
+ No statistics done for E.P. trends
+ No statistics done for R.W. trends
+wav. correl.:  slope =  -3.961E-04  intercept =   3.560  corr. coeff. =  -0.990

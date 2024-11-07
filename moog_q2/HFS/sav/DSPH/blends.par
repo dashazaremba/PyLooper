@@ -1,0 +1,13 @@
+blends
+terminal     x11
+atmosphere    2
+molecules     2
+plot          2
+lines         2
+strong        0
+flux/int      0
+damping       2
+trudamp       1
+blenlimits      
+  0.4  0.0010    23.00
+obspectrum    5

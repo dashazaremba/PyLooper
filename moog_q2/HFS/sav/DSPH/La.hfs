@@ -1,0 +1,76 @@
+From chris@verdi.as.utexas.edu Thu Sep 13 10:08 CDT 2001
+Received: from verdi.as.utexas.edu (verdi.as.utexas.edu [128.83.129.79])
+	by shamhat.as.utexas.edu (8.9.1/8.9.1) with ESMTP id KAA19919
+	for <shetrone@shamhat.as.utexas.edu>; Thu, 13 Sep 2001 10:08:50 -0500 (CDT)
+Received: (from chris@localhost)
+	by verdi.as.utexas.edu (8.9.3+Sun/8.9.1) id KAA20366
+	for shetrone@shamhat.as.utexas.edu; Thu, 13 Sep 2001 10:02:16 -0500 (CDT)
+Date: Thu, 13 Sep 2001 10:02:16 -0500 (CDT)
+From: Chris Sneden <chris@verdi.as.utexas.edu>
+Message-Id: <200109131502.KAA20366@verdi.as.utexas.edu>
+To: shetrone@shamhat.as.utexas.edu
+Subject: Re: La II
+Content-Type: X-sun-attachment
+Content-Length: 1969
+Status: RO
+
+----------
+X-Sun-Data-Type: text
+X-Sun-Data-Description: text
+X-Sun-Data-Name: text
+X-Sun-Charset: us-ascii
+X-Sun-Content-Lines: 14
+
+
+Hi Matt,
+
+      I didn't really use full syntheses for any of the La II yellow-red
+lines since they were very weak in Sun & stars, and Jim Lawler did not
+give me the hyperfine data for the 5301 line.  But I have the info for
+the other two lines, and I have attached below the full patterns for
+them.  You should be apble to plug these lines (adding any other contaminant
+lines as needed) directly into MOOG's synthetic spectrum option.  Ignore the
+funny file names; they don't mean anything for your work.
+
+      Hope these help,
+
+            Regards, Chris
+----------
+X-Sun-Data-Type: default
+X-Sun-Data-Description: default
+X-Sun-Data-Name: lam5303.hfs3
+X-Sun-Charset: us-ascii
+X-Sun-Content-Lines: 9
+
+ 5303.5156      57.1     0.321 1.340E-02
+ 5303.5156      57.1     0.321 4.343E-03
+ 5303.5161      57.1     0.321 8.685E-04
+ 5303.5336      57.1     0.321 6.824E-03
+ 5303.5341      57.1     0.321 5.672E-03
+ 5303.5346      57.1     0.321 2.393E-03
+ 5303.5483      57.1     0.321 2.393E-03
+ 5303.5488      57.1     0.321 4.307E-03
+ 5303.5488      57.1     0.321 4.467E-03
+----------
+X-Sun-Data-Type: default
+X-Sun-Data-Description: default
+X-Sun-Data-Name: lam6390.hfs3
+X-Sun-Charset: us-ascii
+X-Sun-Content-Lines: 15
+
+ 6390.4583      57.1     0.321 9.726E-03
+ 6390.4715      57.1     0.321 1.768E-03
+ 6390.4715      57.1     0.321 6.568E-03
+ 6390.4822      57.1     0.321 1.768E-04
+ 6390.4827      57.1     0.321 2.695E-03
+ 6390.4832      57.1     0.321 4.076E-03
+ 6390.4915      57.1     0.321 4.632E-04
+ 6390.4925      57.1     0.321 2.911E-03
+ 6390.4930      57.1     0.321 2.183E-03
+ 6390.4998      57.1     0.321 2.541E-03
+ 6390.4998      57.1     0.321 7.940E-04
+ 6390.5008      57.1     0.321 8.337E-04
+ 6390.5052      57.1     0.321 1.112E-03
+ 6390.5061      57.1     0.321 1.667E-03
+ 6390.5086      57.1     0.321 1.389E-03
+
