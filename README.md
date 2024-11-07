@@ -7,20 +7,20 @@ The PY_LOOPER notebooks provide a semi-automatic routine for high-resolution spe
 
 ### THE_LOOPER_Part1:
 ### (Iron lines and stellar parameters)
-* Measures EWs for given FeI and FeII lines using a modified version of `pyEW` package originally developed by Monika Adamow (https://github.com/madamow/pyEW).
+* Measures EWs for given FeI and FeII lines using a modified version of `pyEW` package originally developed by [Monika Adamow](https://github.com/madamow/pyEW).
 * Generates plots displaying Gaussian, Multigaussian, and Voigt fits for individual lines.
 * Measures iron abundances with MOOG using `q2` Python package [(Ramirez et al. 2014, A&A, 572, A48)](https://github.com/astroChasqui/q2/tree/master).
 * Creates diagnostic plots A(Fe) vs $\chi$, A(Fe) vs log(EW/$\lambda$), and A(Fe) vs $\lambda$ for for assessing and adjusting stellar parameters.
 * Calculates total uncertainties on iron abundances by propagating errors from stellar parameters.
-* Applies NLTE corrections by quering Inspect and/or MPIA database(s) based on scripts developed by Anya Dovgal (https://github.com/anyadovgal/NLTE-correction.git).
+* Applies NLTE corrections by quering Inspect and/or MPIA database(s) based on scripts developed by [Anya Dovgal](https://github.com/anyadovgal/NLTE-correction.git).
 * Optimizes logg by testing ionization equilibrium between A(FeI)_NLTE and A(FeII).
 * Runs MC simulation for Fe abundances within 1 sigma of stellar parameters.
 
 ### THE_LOOPER_Part2:
-### (Other lines and corrections)
+### (Other lines)
 * Measures EWs for lines of other elements using `pyEW` package.
 * Generates plots displaying Gaussian and optionally Multigaussian, and Voigt fits for individual lines.
-* Measures elemental abundances with MOOG using `q2` Python package, using stellar parameters and iron abundances derived in **Part 1**.
+* Measures elemental abundances with MOOG using `q2` Python package, using stellar parameters and metallicity derived in **Part 1**.
 * Applies HFS corrections.
 * Applies NLTE corrections.
 * Propagates uncertainties from stellar parameters and metallicity. 
@@ -55,4 +55,9 @@ import q2
 By importing `q2`, the latest version of <a href="http://www.as.utexas.edu/~chris/moog.html">MOOG</a> (2019) will begin to install. While importing for the first time, you need to declare the kind of machine you are using, i.g., 'rh64' for 64-bit linux (Linux Mint, Ubuntu, etc), 'rh' for 32-bit linux system and 'maclap' for Mac Os. Note that the `q2` package requires Python 3.7 or later. 
 
 ## Input files
-    
+---------------
+To get started with `THE_LOOPER_Part1`, place the following two files in the `pyEW_modified/PYEW_INPUT` directory:
+* A file containing the Fe lines to be measured (e.g., `Fe_linemake.linelist`)
+* Your continuum normalized and RV corrected spectrum (e.g., `HD222925_normrv.xy`)
+
+For `THE_LOOPER_Part2`, you will also need a linelist for other elements (e.g., `other_elems.linelist`)
