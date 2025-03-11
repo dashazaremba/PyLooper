@@ -1,6 +1,6 @@
 # PyLooper
 <br/>
-<a href="">
+<a href="https://arxiv.org/abs/2503.05927">
     <img src="https://img.shields.io/badge/read-paper-blue"/></a>
     
 The PY_LOOPER notebooks provide a semi-automatic routine for high-resolution spectral analysis using the equivalent width (EW) method. The process begins with measuring the metallicity ([Fe/H]) from iron lines, followed by the assessment and adjustment of spectral parameters ($T_{\text{eff}}, \log g, v_{\text{mic}}, [\text{M/H}]$) incorporating both LTE and NLTE analyses. The routine then proceeds to measure other spectral lines, applying all necessary corrections (NLTE, HFS) and propagating errors from metallicity and derived stellar parameters on the way. The final step includes plotting [X/Fe] vs. [Fe/H], comparing the derived abundances against those of MW halo stars to place the results in the broader context of the Milky Way.
